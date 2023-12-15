@@ -125,6 +125,7 @@ sbatch scripts/slurm_eval.sh \
         -f <PATH_TO_PRETRAINED_FOLDER>
 ```
 
+## License
 
 The majority of SIEVE is licensed under CC-BY-NC, however portions of the project are available under separate license terms: datacomp is licensed under the MIT license; open_clip is licensed under https://github.com/mlfoundations/open_clip/blob/main/LICENSE; BLIP is licensed under the BSD 3-clause license.
 
