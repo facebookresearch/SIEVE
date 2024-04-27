@@ -1,6 +1,6 @@
-# SIEVE
+# Sieve
 
-*SIEVE:* Multimodal Dataset Pruning Using Image Captioning Models
+*Sieve:* Multimodal Dataset Pruning Using Image Captioning Models
 
 [[ Paper ]](https://arxiv.org/abs/2310.02110)
 <p align="center">
