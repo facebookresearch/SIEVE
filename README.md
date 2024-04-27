@@ -1,6 +1,6 @@
 # Sieve
 
-*Sieve:* Multimodal Dataset Pruning Using Image Captioning Models
+**Sieve: Multimodal Dataset Pruning Using Image Captioning Models (CVPR 2024)**
 
 [[ Paper ]](https://arxiv.org/abs/2310.02110)
 <p align="center">
@@ -21,7 +21,7 @@ conda activate sieve
 ## Compute alignment scores
 The `webdataset_inference.py` script creates a webdataset dataloader and can be used to compute the alignment scores using **SIEVE** and optionally **CLIPScore**. The input shards are distributed amongst available nodes and the output is a `.parquet` file per gpu. The parquet file contains information about each sample and the computed alignment scores. 
 
-1. To compute **SIEVE** scores using `--captioning` option:
+1. To compute **Sieve** scores using `--captioning` option:
 
 ```
 torchrun --nnodes <NUM_NODES> --nproc_per_node <NUM_GPUS> webdataset_inference.py \
@@ -32,7 +32,7 @@ torchrun --nnodes <NUM_NODES> --nproc_per_node <NUM_GPUS> webdataset_inference.p
 ```
 The `--output_dir` directory will contain the output parquet files. By default we generate 8 captions per image and only the caption  with the higest sentence similarity is saved in the parquet files. To save all generated captions add option `--save_all_captions`. This is usefull for post processing (i.e., removing medium words and then recomputing alignment scores or recomputed alignment scores using different sentence encoders). 
 
-2. To compute **SIEVE** and **CLIPScore** alignment scores use `--—clipcap` option:
+2. To compute **Sieve** and **CLIPScore** alignment scores use `--—clipcap` option:
 ```
 torchrun --nnodes <NUM_NODES> --nproc_per_node <NUM_GPUS> webdataset_inference.py \
          --data_dir <PATH_TO_SHARD_TAR_FILES> \ 
