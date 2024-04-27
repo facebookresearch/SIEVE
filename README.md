@@ -135,10 +135,10 @@ The majority of SIEVE is licensed under CC-BY-NC, however portions of the projec
 If you use SIEVE, please use the below BibTex for citing:
 :
 ```text
-@article{mahmoud2023sieve,
-  title={SIEVE: Multimodal Dataset Pruning Using Image Captioning Models},
+@article{Sieve,
+  title={Sieve: Multimodal Dataset Pruning Using Image Captioning Models},
   author={Mahmoud, Anas and Elhoushi, Mostafa and Abbas, Amro and Yang, Yu and Ardalani, Newsha and Leather, Hugh and Morcos, Ari},
-  journal={arXiv preprint arXiv:2310.02110},
-  year={2023}
+  journal={CVPR},
+  year={2024}
 }
 ```
