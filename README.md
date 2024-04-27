@@ -1,8 +1,6 @@
-# Sieve
+# Sieve: Multimodal Dataset Pruning Using Image Captioning Models (CVPR 2024)
 
 Sieve is a data curation framework for vision-language datasets
-
-**Sieve: Multimodal Dataset Pruning Using Image Captioning Models (CVPR 2024)**
 
 [[ Paper ]](https://arxiv.org/abs/2310.02110)
 <p align="center">
