@@ -1,6 +1,6 @@
 # Sieve: Multimodal Dataset Pruning Using Image Captioning Models (CVPR 2024)
 
-Sieve is a data curation method for vision-language data, enabling training highly performant CLIP models. Sieve works on assessing the alignment between webscale image-text pairs using image-captioning models pretrained on small, diverse and highly curated datasets. To bridge the gap between the limited diversity of the generated sythentic captions (i.e., by the image-captioning models) and the original alt-text, we propose quantifying the semantic alignment of the generated sythentic caption and the original alt-text using a sentence transformer pretrained on a large corpse of text data. This alignment is then used as a proxy for how well-aligned the image content with their corresponding text. 
+Sieve is a data curation method for vision-language data, enabling training highly performant CLIP models. Sieve works on assessing the alignment between webscale image-text pairs using image-captioning models pretrained on small, diverse and highly curated datasets. To bridge the gap between the limited diversity of the generated sythentic captions (i.e., by the image-captioning models) and the original alt-text, we propose quantifying the semantic alignment of the generated sythentic caption and the original alt-text using a sentence transformer pretrained on a large corpus of text data. This alignment is then used as a proxy for how well-aligned the image content with their corresponding text. 
 
 [[ Paper ]](https://arxiv.org/abs/2310.02110)
 <p align="center">
